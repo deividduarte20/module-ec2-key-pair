@@ -7,7 +7,7 @@
 
 ## Providers
 
-No providers.
+AWS
 
 ## Modules
 
@@ -17,7 +17,7 @@ No providers.
 
 ## Resources
 
-No resources.
+EC2 and Key pair
 
 ## Inputs
 
