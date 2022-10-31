@@ -11,5 +11,11 @@ variable "inst_type" {
 }
 
 variable "key_name" {
-  
+
+}
+
+variable "environment" {
+  type        = string
+  description = "Environment with condictional"
+  default     = "production"
 }
