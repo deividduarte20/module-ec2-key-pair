@@ -1,10 +1,10 @@
 
 output "ec2" {
-  value = aws_instance.web.public_ip
+  value = aws_instance.web[*].public_ip
 }
 
 output "ec2-arn" {
-  value = aws_instance.web.arn
+  value = aws_instance.web[*].arn
 }
 
 output "key_name" {
